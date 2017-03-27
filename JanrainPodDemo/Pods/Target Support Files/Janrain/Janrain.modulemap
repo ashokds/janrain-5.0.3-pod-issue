@@ -1,0 +1,6 @@
+framework module Janrain {
+  umbrella header "Janrain-umbrella.h"
+
+  export *
+  module * { export * }
+}

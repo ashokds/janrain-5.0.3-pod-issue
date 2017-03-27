@@ -1,0 +1,41 @@
+PODS:
+  - AppAuth (0.7.1)
+  - GTMAppAuth (0.5.0):
+    - AppAuth (~> 0.7.0)
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.1.9):
+    - GTMSessionFetcher/Full (= 1.1.9)
+  - GTMSessionFetcher/Core (1.1.9)
+  - GTMSessionFetcher/Full (1.1.9):
+    - GTMSessionFetcher/Core (= 1.1.9)
+  - Janrain (5.0.3)
+  - libextobjc/EXTScope (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/RuntimeExtensions (0.4.1)
+
+DEPENDENCIES:
+  - AppAuth
+  - GTMAppAuth
+  - Janrain (from `https://github.com/janrain/jump.ios.git`, tag `5.0.3`)
+  - libextobjc/EXTScope (~> 0.4)
+
+EXTERNAL SOURCES:
+  Janrain:
+    :git: https://github.com/janrain/jump.ios.git
+    :tag: 5.0.3
+
+CHECKOUT OPTIONS:
+  Janrain:
+    :git: https://github.com/janrain/jump.ios.git
+    :tag: 5.0.3
+
+SPEC CHECKSUMS:
+  AppAuth: c56d352b0d50bb34dbb302d7ba50b20aa6b6ae89
+  GTMAppAuth: 4b7bdc1fefdf6a49f3d9fc1aa6123f0c7e9b6660
+  GTMSessionFetcher: 5c046c76a1f859bc9c187e918f18e4fc7bb57b5e
+  Janrain: f3d64ba18bdcff598c12f06703b0f10ed53ba9fc
+  libextobjc: a650fc1bf489a3d3a9bc2e621efa3e1006fc5471
+
+PODFILE CHECKSUM: fa60dbce2c794949e1e75f12f040ff81d65fffe1
+
+COCOAPODS: 1.1.1

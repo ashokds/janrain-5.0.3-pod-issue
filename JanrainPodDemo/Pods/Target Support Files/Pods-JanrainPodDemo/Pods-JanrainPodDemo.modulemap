@@ -1,0 +1,6 @@
+framework module Pods_JanrainPodDemo {
+  umbrella header "Pods-JanrainPodDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

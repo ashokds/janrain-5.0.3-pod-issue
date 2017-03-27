@@ -1,0 +1,25 @@
+{
+  "name": "Janrain",
+  "version": "5.0.3",
+  "summary": "Janrain iOS Mobile Libraries",
+  "homepage": "https://github.com/janrain/jump.ios",
+  "license": {
+    "type": "BSD",
+    "file": "LICENSE"
+  },
+  "authors": "Janrain",
+  "source": {
+    "git": "https://github.com/janrain/jump.ios.git",
+    "tag": "5.0.3"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Janrain/**/*.{h,m}",
+  "exclude_files": "Janrain/JRCapture/**/*",
+  "resources": [
+    "Janrain/JREngage/Resources/**/*",
+    "Janrain/JREngage/**/*.js"
+  ],
+  "requires_arc": true
+}
